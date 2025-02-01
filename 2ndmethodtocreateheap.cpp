@@ -32,7 +32,7 @@ for(int i=0;i<n;i++){
 int main(){
 
 //Building MaxHeap by step down approach
-
+//this is a more optimised approach as it takes o(n) time complexity only
 int arr[]={34,19,28,38,10,3,2,7,4,89};
 Buildmaxheap(arr,10);
 printheap(arr,10);
