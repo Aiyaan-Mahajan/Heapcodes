@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     //maxheap
 priority_queue<int>q;
+    //now elements will be added at the top of priority queue just like stack 
 q.push(3);
 q.push(5);
 q.push(17);
